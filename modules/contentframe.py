@@ -134,7 +134,7 @@ class Main_frame(Content_frame):
         self.exportingProgress = ttk.Progressbar(
             self.progressFrame, orient="horizontal", mode="determinate", variable=vars["exporting_done"])
         self.renderingLabel = ttk.Label(
-            self.progressFrame, text="Renderig video:")
+            self.progressFrame, text="Rendering video:")
         self.renderingDoneLabel = ttk.Label(
             self.progressFrame, textvariable=vars["rendering_done"])
         self.renderingOfLabel = ttk.Label(self.progressFrame, text=" of ")
